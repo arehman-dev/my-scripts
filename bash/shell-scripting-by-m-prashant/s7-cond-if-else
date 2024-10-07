@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+<<attention
+in this script i'm going to use if-else condition
+tryyna add multi line comment
+attention
+
+read -p "Enter your uname please : " uname
+if [[ "$uname" == "$whoami" ]]
+then
+echo "you are user"
+else
+echo "you are not the user"
+fi
+

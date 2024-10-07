@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+<<attention
+in this script i'm going to use elif condition
+tryyna add multi line comment
+attention
+
+read -p "what's the answer? 5(2+3)/5 : " ans
+if [[ "$ans" -eq 5 ]]
+then
+echo "It's the right answer"
+elif [[ "$ans" -lt 5 ]]
+then
+echo "this value is less than actual answer"
+elif [[ "$ans" -gt 5 ]]
+then
+echo "this value is greater than actual answer"
+fi
+
