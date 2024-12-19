@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Extension</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-card">
+        <div class="location">
+            <span id="text_location"></span>,
+            <span id="text_location_country"></span>
+        </div>
+        <div class="temp">
+            <span id="text_temp"></span>°C
+        </div>
+        <div class="temp_feel_like">
+            Feels like: <span id="text_feelslike"></span>°C
+        </div>
+        <img id="icon" alt="Weather Icon" />
+        <p id="text_desc"></p>
+        <div class="footer">
+            <p>Powered by <a href="https://www.weatherapi.com" target="_blank">WeatherAPI.com</a></p>
+            <p class="project">project by a.rehman</p>
+        </div>
+    </div>
+    <script src="fetchData.js"></script>
+</body>
+</html>
