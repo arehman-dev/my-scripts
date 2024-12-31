@@ -1,22 +1,27 @@
 {
-  "name": "Islamabad Weather",
-  "description": "An extension that shows Islamabad's current weather.",
-  "version": "0.1",
-  "manifest_version": 3,
-  "action": {
-    "default_popup": "./popup.html",
-    "default_icon": "./icon128.png"
-  },
+  "manifest_version": 2,
+  "name": "Weather Extension",
+  "version": "0.2",
+  "description": "A weather extension that shows Islamabad's current weather for Chrome and Firefox.",
   "icons": {
-    "16": "./icon16.png",
-    "48": "./icon48.png",
-    "128": "./icon128.png"
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon48.png"
+    }
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "https://api.weatherapi.com/*"
   ],
   "background": {
-    "service_worker": "background.js"
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
   },
   "content_scripts": [
     {
@@ -27,5 +32,11 @@
         "content.js"
       ]
     }
-  ]
+  ],
+  "applications": {
+    "gecko": {
+      "id": "weatherextension@none.com",
+      "strict_min_version": "131.0"
+    }
+  }
 }
