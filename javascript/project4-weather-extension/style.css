@@ -2,54 +2,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 body {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Full height for centering */
-    background: linear-gradient(135deg, #a8edea, #fed6e3);
-    font-family: 'Montserrat', Arial, sans-serif; /* Apply Montserrat */
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: auto;
+   /* Allow the popup to expand dynamically */
+   min-height: 300px;
+   /* Set a minimum height */
+   /* above two lines are added to make it works for firefox else it was only working in chrome.*/
+   /* height: 100vh; Full height for centering */
+   background: linear-gradient(135deg, #a8edea, #fed6e3);
+   font-family: 'Montserrat', Arial, sans-serif;
+   /* Apply Montserrat */
 }
 
 .weather-card {
-    width: 300px;
-    padding: 20px;
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
+   width: 300px;
+   padding: 20px;
+   border-radius: 15px;
+   background: rgba(255, 255, 255, 0.9);
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   text-align: center;
 }
 
 .location {
-    font-size: 1.5rem;
-    font-weight: 600; /* Use bold Montserrat */
-    color: #333;
+   font-size: 1.5rem;
+   font-weight: 600;
+   /* Use bold Montserrat */
+   color: #333;
 }
 
 .temp {
-    font-size: 3rem;
-    font-weight: 700; /* Extra bold for temperature */
-    margin: 10px 0;
-    color: #ff8c00;
+   font-size: 3rem;
+   font-weight: 700;
+   /* Extra bold for temperature */
+   margin: 10px 0;
+   color: #ff8c00;
 }
 
 .temp_feel_like {
-    font-size: 1rem;
-    font-weight: 400; /* Regular weight */
-    margin: 10px 0;
-    color: #666;
+   font-size: 1rem;
+   font-weight: 400;
+   /* Regular weight */
+   margin: 10px 0;
+   color: #666;
 }
 
 #icon {
-    width: 100px;
-    height: 100px;
-    margin: 10px 0;
+   width: 100px;
+   height: 100px;
+   margin: 10px 0;
 }
 
 #text_desc {
-    font-size: 1rem;
-    font-weight: 600; /* Bold for weather description */
-    color: #333;
+   font-size: 1rem;
+   font-weight: 600;
+   /* Bold for weather description */
+   color: #333;
 }
 
 .footer {
