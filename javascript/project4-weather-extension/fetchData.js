@@ -23,7 +23,7 @@ fetch(API_URL)
   });
 
 
-  
+
 // _______my old code with fetching issues______
 
 // const API_key = '23e14d5cc8a740a7b9874444242011'

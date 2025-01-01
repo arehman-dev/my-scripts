@@ -1,2 +1,4 @@
 #!/usr/bin/env python
-a = 12
+a = 1
+s = 14
+z = 15
