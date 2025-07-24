@@ -2,7 +2,7 @@
     "name": "hello_extension1",
     "version": "0.1",
     "description": "a sample extension for testing",
-    "manifest_version": "3",
+    "manifest_version": 2,
     "icons": {
         "16": "/icons/icon16.png",
         "48": "/icons/icon48.png",
