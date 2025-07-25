@@ -1,0 +1,15 @@
+{
+    "name": "budget_tracker",
+    "version": 1.0,
+    "description": "an extension that track spendings",
+    "manifest_version": 2,
+    "icons": {
+        "16": "/icons/128.png",
+        "48": "/icons/128.png",
+        "128": "/icons/128.png"
+    },
+    "browser_action": {
+        "default_icon": "/icons/icon48",
+        "default_popup": "/popup.html"
+    }
+}
