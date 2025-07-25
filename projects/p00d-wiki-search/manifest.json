@@ -4,12 +4,12 @@
     "description": "Search wikipedia in popup.",
     "manifest_version": 2,
     "icons": {
-        "16": "/icons/icon16",
-        "48": "/icons/icon48",
-        "128": "/icons/icon128"
+        "16": "/icons/icon16.png",
+        "48": "/icons/icon48.png",
+        "128": "/icons/icon128.png"
     },
     "background": {
-        "script": ["eventPage.js"],
+        "scripts": ["eventpage.js"],
         "persistent": false
     },
     "permissions": [
