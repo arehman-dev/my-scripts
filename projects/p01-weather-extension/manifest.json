@@ -1,5 +1,5 @@
 {
-  "name": "Weather Extension",
+  "name": "Islamabad's weather",
   "version": "0.4",
   "manifest_version": 2,
   "description": "A weather extension that shows Islamabad's current weather for Chrome and Firefox.",

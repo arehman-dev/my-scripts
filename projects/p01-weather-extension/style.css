@@ -12,7 +12,7 @@ body {
    /* Set a minimum height */
    /* above two lines are added to make it works for firefox else it was only working in chrome.*/
    /* height: 100vh; Full height for centering */
-   background: linear-gradient(135deg, #a8edea, #fed6e3);
+   background: linear-gradient(135deg, #eafffe, #ffc0d4);
    font-family: 'Montserrat', Arial, sans-serif;
    /* Apply Montserrat */
 }
@@ -20,7 +20,10 @@ body {
 .weather-card {
    width: 300px;
    padding: 20px;
+   align-self: start;
    border-radius: 15px;
+   /*new background gradient*/
+   /* background: linear-gradient(135deg, #eafffe, #ffc0d4); */
    background: rgba(255, 255, 255, 0.9);
    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
    text-align: center;
@@ -64,13 +67,13 @@ body {
 
 .footer {
    margin-top: 20px;
-   font-size: 0.9rem;
+   font-size: 0.8rem;
    color: #666;
    text-align: center;
 }
 
 .footer a {
-   color: #00aaff;
+   color: #8c00ffdc;
    text-decoration: none;
 }
 
@@ -79,7 +82,7 @@ body {
 }
 
 .footer .project {
-   margin-top: 5px;
+   margin-top: 3px;
    font-weight: lighter;
    font-family: 'Montserrat', Arial, sans-serif;
    color: #6b6969;
