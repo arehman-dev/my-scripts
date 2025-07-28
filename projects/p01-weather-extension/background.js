@@ -1,3 +1,5 @@
+// a snippet of code for logging message at console
+
 // // Handle the click event on the extension icon
 // browser.browserAction.onClicked.addListener((tab) => {
 //     console.log("Extension icon clicked");
