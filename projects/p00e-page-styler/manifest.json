@@ -1,0 +1,17 @@
+{
+    "name": "Page styler",
+    "description": "an extension that changes font size and style of specific pages",
+    "version": "0.1",
+    "manifest_version": 2,
+    "icons": {
+        "128": "/icons/icon128.png",
+        "48": "/icons/icon48.png",
+        "16": "/icons/icon16.png"
+    },
+    "permissions": [],
+    "actions": {
+        "default_icon": "/icons/icon16.png",
+        "default_popup": "popup.js",
+        "default_title": "Page styler"
+    }
+}

@@ -1,0 +1,9 @@
+
+this works only for Firefox
+"applications": {
+    "gecko": {
+      "id": "weatherextension@none.com",
+      "strict_min_version": "68.0"
+    }
+  },
+  while in chrome's manifest, we need to remove it.
