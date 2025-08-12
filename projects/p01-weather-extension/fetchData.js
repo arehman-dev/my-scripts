@@ -1,4 +1,4 @@
-const API_KEY = '23e14d5cc8a740a7b9874444242011';
+const API_KEY = '---;
 const API_URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=Islamabad&aqi=no`;
 
 fetch(API_URL)
@@ -26,9 +26,9 @@ fetch(API_URL)
 
 // _______my old code with fetching issues______
 
-// const API_key = '23e14d5cc8a740a7b9874444242011'
+// const API_key = '---'
 
-// fetch("http://api.weatherapi.com/v1/current.json?key=23e14d5cc8a740a7b9874444242011&q=Islamabad&aqi=no")
+// fetch("http://api.weatherapi.com/v1/current.json?key=---&q=Islamabad&aqi=no")
 // .then(data => data.json())
 //   .then((jsonData) => {
 //      console.log(jsonData.name)
