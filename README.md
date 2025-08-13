@@ -121,7 +121,7 @@ This is a personal learning repository, but feel free to:
 - Share alternative approaches
 - Discuss coding practices
 
-## 📞 Contact
+## 🖧 Contact
 
 **GitHub**: [@arehman-dev](https://github.com/arehman-dev)
 
